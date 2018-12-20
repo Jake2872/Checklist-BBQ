@@ -1,0 +1,137 @@
+html {
+	
+-webkit-text-size-adjust: 100%; 
+background-color: #0f0f41;
+background: linear-gradient(to top, rgb(61, 130, 188), rgb(84, 99, 122), rgb(5, 38, 86));
+margin-top: 0; padding-top: 0;
+  }  
+  
+section, article, nav, aside, header, footer, main {  display: block;  }
+
+ 
+body {
+     
+        background-color: #115491;
+	    -webkit-user-select: none;    
+	    -ms-user-select: none;     
+	    -moz-user-select: none;   
+	    user-select: none;
+		padding: 0 20px 50px 20px;
+		max-width: 500px;     /*limits body/content width and centers content*/
+		margin: 0 auto 0 auto;
+    }
+
+                                                                         
+      
+      header { 
+		     padding-top:    50px;  
+		  letter-spacing:    3px;
+		   text-align: center;
+}
+        
+    
+    h1 {
+      
+      color: #eadd79;
+	  margin-top: 0;
+    }
+    
+    h2 {    color: #f0b310;    }
+
+
+/*end of header*/
+
+#checklist__container {
+	display: flex;
+	flex-direction: column;
+	font-size: 1.5em;
+	letter-spacing: 2px;
+	margin: 3% 1% 1% 1%;
+	padding: 8% 15px 0 15px;
+	border-right: 2px solid #7E91A3;
+	border-left: 2px solid #7E91A3;
+}
+
+label  /*list item*/ {
+	
+	      padding: 20px;
+	margin-bottom: 30px;
+}
+   
+   input {display: none;} /*remove actual checkbox but leave associated label to check and uncheck*/
+   
+
+  input[type="checkbox"] + label{   /*list item design*/
+  
+ background-color: #f0b310;
+            color: #115491;                                                         
+       transition: background-color 0.3s ease-in;
+	  cursor: pointer;
+	  
+    }
+
+
+ 
+  input[type="checkbox"]:checked + label  {  /*list item design After checked*/
+       
+	  text-decoration: line-through;       
+	  background-color: #2A4270;              /*animate this*/
+	  color: #4185ff;
+}
+
+
+
+    /*Start of button design*/
+
+a {text-decoration: none;}
+   
+#button__reset-list--wrapper {
+	
+	align-self: center;
+	margin:  45px 0 65px 0;
+	
+}
+
+   
+     #button__reset-list {
+      
+    	background-color: #4B2A2A;
+		           color: #94B1CD;
+		 padding: 10px;
+		 max-width: 150px;
+		 font-size: inherit;
+		 border: none;
+		 letter-spacing: 2px;
+     }
+
+#button__reset-list:hover, #button__reset-list:active {
+	
+	background-color: #6A4444;
+		       color: #94B1CD;
+}
+     
+ 
+
+
+    /*End of button design*/
+    
+  footer {             
+       color: #f0b310;
+       text-align: center;
+	  line-height: 1.50;
+	  letter-spacing: 1px;
+	  
+       }
+       
+
+    #footer__whatsapp--contact {
+    color: #f0b310;
+    text-decoration: none;                  
+    font-weight: bold;
+    }
+    
+    
+   
+
+     
+    
